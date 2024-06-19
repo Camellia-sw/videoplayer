@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/video">
+    <file alias="qmldir">/root/video/build/Desktop_Qt_6_7_1-Debug/video/qmldir</file>
+  </qresource>
+</RCC>
+

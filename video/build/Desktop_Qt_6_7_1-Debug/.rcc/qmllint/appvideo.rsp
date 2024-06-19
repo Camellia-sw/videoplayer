@@ -1,0 +1,14 @@
+--bare
+-I
+/root/video/build/Desktop_Qt_6_7_1-Debug
+-I
+/opt/Qt/6.7.1/gcc_64/./qml
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc
+/root/video/Main.qml
+/root/video/Footer.qml
+/root/video/Actions.qml
+/root/video/Content.qml
+/root/video/Dialogs.qml

@@ -1,0 +1,14 @@
+-rootPath
+/root/video
+-cmake-output
+-output-file
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appvideo_build.cmake
+-importPath
+/root/video/build/Desktop_Qt_6_7_1-Debug/video
+-importPath
+/root/video/build/Desktop_Qt_6_7_1-Debug
+-importPath
+/opt/Qt/6.7.1/gcc_64/./qml
+-qrcFiles
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc

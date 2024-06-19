@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_autogen",
+	"CMAKE_BINARY_DIR" : "/root/video/build/Desktop_Qt_6_7_1-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/root/video/build/Desktop_Qt_6_7_1-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/root/video",
+	"CMAKE_SOURCE_DIR" : "/root/video",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_autogen/include",
+	"INPUTS" : 
+	[
+		"/root/video/images/video.jpg",
+		"/root/video/images/back.png",
+		"/root/video/images/pause.png",
+		"/root/video/images/forward.png",
+		"/root/video/images/next.jpg",
+		"/root/video/images/pre.jpg"
+	],
+	"LOCK_FILE" : "/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appvideo_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/opt/Qt/6.7.1/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appvideo_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/root/video/images.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
