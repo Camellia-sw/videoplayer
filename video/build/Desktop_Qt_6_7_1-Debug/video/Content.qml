@@ -1,22 +1,47 @@
 import QtQuick
-import Qt.labs.folderlistmodel
+import QtMultimedia
 import QtQuick.Dialogs
-
+import QtQuick.Controls
 
 Item {
-    property alias dialogs: allDialogs
+    property alias dialogs: dialogs
+    property alias player:_player
+    property alias videoItem:_videoItem
+    //property alias bgimg:_bgimg
 
-    signal fullScreen()
-    signal window()
+    property url audioSource
 
     Dialogs{
-        id:allDialogs
-        fileOpen.onAccepted:
-            setFilesModel(fileOpen.selectedFiles)
-
-        folderOpen.onAccepted:
-            setFolderModel(folderOpen.selectedFolder);
+        id:dialogs
+        openfile.onAccepted:{
+            audioSource=openfile.selectedFile
+            console.log("Dialogs:"+audioSource)
+            player.play()
+            //content.bgimg.visible=false
+        }
     }
-}
 
+    function openfileTriggered(){
+        content.dialogs.openfile.open();
+    }
+
+
+    Item{
+        id:_videoItem
+        anchors.fill: parent
+        focus:true
+        MediaPlayer{
+            id:_player
+            source:audioSource
+            audioOutput: AudioOutput{}
+            videoOutput: videoOutput
+        }
+        VideoOutput{
+            id:videoOutput
+            anchors.fill:parent
+            fillMode: VideoOutput.PreserveAspectFit
+        }
+    }
+
+}
 

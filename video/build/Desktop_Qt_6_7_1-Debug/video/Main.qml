@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-
+import QtMultimedia
 ApplicationWindow {
     width: 640
     height: 480
@@ -31,26 +31,15 @@ ApplicationWindow {
 
     Actions{
         id:actions
-        open.onTriggered: content.dialogs.fileOpen.open()
+        open.onTriggered: content.dialogs.openfile.open()
         folder.onTriggered: content.dialogs.folderOpen.open()
     }
+
     Content{
         id:content
         anchors.fill: parent
-        onFullScreen: {
-            menuBar.visible = false;
-            header.visible = false;
-            appWindow.showFullScreen();
-            isFullScreen = true;
-            singleView();
-        }
-        onWindow: {
-            menuBar.visible = true
-            header.visible = true
-            appWindow.showNormal()
-            isFullScreen=false;
-        }
     }
+
 
     ColumnLayout{
         anchors.fill: parent
@@ -62,9 +51,11 @@ ApplicationWindow {
             Layout.fillHeight: true
             padding:0
         }
+
         Footer{
             id:footer
         }
+
     }
 }
 

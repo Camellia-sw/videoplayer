@@ -5,7 +5,6 @@ import QtQuick.Layouts
 Rectangle{
     Layout.fillWidth: true;
     height:60
-
     Slider{
         id:slider
         width:parent.width
