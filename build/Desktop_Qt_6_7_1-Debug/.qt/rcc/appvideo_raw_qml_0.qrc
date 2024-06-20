@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/video/">
+    <file alias="Main.qml">/root/video/Main.qml</file>
+    <file alias="Footer.qml">/root/video/Footer.qml</file>
+    <file alias="Actions.qml">/root/video/Actions.qml</file>
+    <file alias="Dialogs.qml">/root/video/Dialogs.qml</file>
+    <file alias="Content.qml">/root/video/Content.qml</file>
+    <file alias="images.qrc">/root/video/images.qrc</file>
+  </qresource>
+</RCC>
+

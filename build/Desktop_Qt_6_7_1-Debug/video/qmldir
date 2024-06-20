@@ -1,0 +1,9 @@
+module video
+typeinfo appvideo.qmltypes
+prefer :/video/
+Main 1.0 Main.qml
+Footer 1.0 Footer.qml
+Actions 1.0 Actions.qml
+Dialogs 1.0 Dialogs.qml
+Content 1.0 Content.qml
+

@@ -1,0 +1,9 @@
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc
+/video/Main.qml
+/video/Footer.qml
+/video/Actions.qml
+/video/Dialogs.qml
+/video/Content.qml
