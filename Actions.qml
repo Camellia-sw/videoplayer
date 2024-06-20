@@ -14,9 +14,6 @@ Item {
     property alias contents: _contents
     property alias exit: _exit
     property alias voice: _voice
-    property alias stop: _stop
-    property alias play: _play
-    property alias pausetop: _pausetop
 
     Action {
         id: _open
@@ -32,21 +29,6 @@ Item {
         shortcut: "Ctrl + d"
     }
 
-    Action {
-        id: _play
-        text: qsTr("&play")
-        icon.name: "media-playback-playing"
-    }
-    Action {
-        id: _stop
-        text: qsTr("&Stop")
-        icon.name: "media-playback-stopped"
-    }
-    Action {
-        id: _pausetop
-        text: qsTr("&Pause")
-        icon.name: "media-playback-paused"
-    }
     Action {
         id: _voice
         icon.source:"qrc:/images/video"
