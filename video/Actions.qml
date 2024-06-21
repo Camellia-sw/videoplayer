@@ -4,7 +4,6 @@ import QtQuick.Controls
 
 Item {
     property alias open: _open
-    property alias folder: _folder
     property alias pause: _pause
     property alias back: _back
     property alias forward: _forward
@@ -14,7 +13,8 @@ Item {
     property alias contents: _contents
     property alias exit: _exit
     property alias voice: _voice
-
+    property alias screenshot:_screenshot
+    property alias save:_save
     Action {
         id: _open
         text: qsTr("&OpenFile...")
@@ -23,10 +23,10 @@ Item {
     }
 
     Action {
-        id: _folder
-        text: qsTr("OpenFol&der...")
-        icon.name: "document-open-recent"
-        shortcut: "Ctrl + d"
+        id: _save
+        text: qsTr("&Save")
+        shortcut: StandardKey.Save
+        icon.name: "document-save"
     }
 
     Action {
@@ -55,16 +55,23 @@ Item {
         icon.source: "qrc:/images/forward"
     }
 
-
-
     Action {
         id: _next
         icon.source: "qrc:/images/next"
     }
+
+    Action {
+        id: _screenshot
+        text:qsTr("Screenshot")
+        icon.source: "qrc:/images/screenshot"
+    }
+
     Action {
         id: _exit
         text: qsTr("E&xit")
         icon.name: "application-exit"
+        shortcut: "Ctrl+q"
+        onTriggered: Qt.quit();
     }
 
     Action{

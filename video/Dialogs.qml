@@ -14,7 +14,17 @@ Item {
         title: "Select some Video files"
         currentFolder: StandardPaths.writableLocation(StandardPaths.VideoLocation)
         fileMode: FileDialog.OpenFiles
-        nameFilters: [ "Video files (*.mkv *.mp4)" ]
+        nameFilters: [ "Video files (*.mkv *.mp4 *.avi)" ]
+    }
+
+    FileDialog {
+        id: _fileSave
+        title: "Select some text files"
+        modality: Qt.ApplicationModal
+        currentFolder: StandardPaths.writableLocation
+                       (StandardPaths.DocumentsLocation)
+        fileMode: FileDialog.SaveFile
+        nameFilters: [ "ScreenShot files (*.jpg *)" ]
     }
 
 

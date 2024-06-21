@@ -7,9 +7,21 @@ Item {
     property alias dialogs: dialogs
     property alias player:_player
     property alias videoItem:_videoItem
-    //property alias bgimg:_bgimg
 
     property url audioSource
+
+    // function capture(){
+    //     var canvas=document.create('canvas');
+    //     canvas.width=video.width;
+    //     canvas.height=video.height
+
+    //     var context=canvas.getContext('2d');
+    //     context.drawImage(video,0,0,canvas.width,canvas.height);
+
+    //     var image=new Image();
+    //     image.src=canvas.toDateURL();
+    //     return image;
+    // }
 
     Dialogs{
         id:dialogs
@@ -17,14 +29,8 @@ Item {
             audioSource=openfile.selectedFile
             console.log("Dialogs:"+audioSource)
             player.play()
-            //content.bgimg.visible=false
         }
     }
-
-    function openfileTriggered(){
-        content.dialogs.openfile.open();
-    }
-
 
     Item{
         id:_videoItem
@@ -42,6 +48,5 @@ Item {
             fillMode: VideoOutput.PreserveAspectFit
         }
     }
-
 }
 

@@ -447,4 +447,6 @@ CMakeFiles/appvideo.dir/main.cpp.o: /root/video/main.cpp \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlregistration.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlerror.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h
+  /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h \
+  /opt/Qt/6.7.1/gcc_64/include/QtQml/QQmlContext \
+  /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlcontext.h

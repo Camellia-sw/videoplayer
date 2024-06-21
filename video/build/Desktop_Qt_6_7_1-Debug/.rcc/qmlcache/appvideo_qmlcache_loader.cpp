@@ -40,6 +40,27 @@ namespace _video_Dialogs_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _video_PlayerList_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _video_screenshot_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _video_CusDragRect_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -59,6 +80,9 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/video/Actions.qml"), &QmlCacheGeneratedCode::_video_Actions_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/video/Content.qml"), &QmlCacheGeneratedCode::_video_Content_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/video/Dialogs.qml"), &QmlCacheGeneratedCode::_video_Dialogs_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/video/PlayerList.qml"), &QmlCacheGeneratedCode::_video_PlayerList_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/video/screenshot.qml"), &QmlCacheGeneratedCode::_video_screenshot_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/video/CusDragRect.qml"), &QmlCacheGeneratedCode::_video_CusDragRect_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

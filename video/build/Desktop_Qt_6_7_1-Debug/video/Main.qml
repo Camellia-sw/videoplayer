@@ -2,12 +2,16 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtMultimedia
+import QtQml
+import QtQuick.Window
 ApplicationWindow {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Video Clip")
+    title: qsTr("Video Player")
+    id:rootWindow
 
+    property int curIndex: 0
     menuBar: MenuBar {
         Menu {
             title: qsTr("&File")
@@ -25,31 +29,41 @@ ApplicationWindow {
     header: ToolBar {
         RowLayout{
             ToolButton{ action: actions.open }
-            ToolButton{ action: actions.folder }
+            ToolButton{
+                action:actions.screenshot
+                id:screenshotbutton
+                onClicked:{
+                    //screenshot.shootScreen(screenshotbutton)
+                    //screenshot.shootScreenWindow(rootWindow)
+                    screenShotCom.source = "screenshot.qml";
+               }
+            }
         }
     }
-
+    Loader{
+        id: screenShotCom
+        onLoaded: {
+            item.closing.connect(function (){
+                screenShotCom.source = "";
+            });
+        }
+    }
     Actions{
         id:actions
         open.onTriggered: content.dialogs.openfile.open()
-        folder.onTriggered: content.dialogs.folderOpen.open()
     }
-
-    Content{
-        id:content
-        anchors.fill: parent
-    }
-
 
     ColumnLayout{
         anchors.fill: parent
         spacing: 0
 
-        Frame{
-            anchors.right: parent.right
-            Layout.preferredWidth: 200
-            Layout.fillHeight: true
-            padding:0
+        PlayerList{
+            id:playerlist
+        }
+
+        Content{
+            id:content
+            anchors.fill:parent
         }
 
         Footer{
