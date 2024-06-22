@@ -7,5 +7,5 @@ Actions 1.0 Actions.qml
 Content 1.0 Content.qml
 Dialogs 1.0 Dialogs.qml
 PlayerList 1.0 PlayerList.qml
-CusDragRect 1.0 CusDragRect.qml
+TextContent 1.0 TextContent.qml
 

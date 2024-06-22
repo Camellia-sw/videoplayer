@@ -10,18 +10,11 @@ Item {
 
     property url audioSource
 
-    // function capture(){
-    //     var canvas=document.create('canvas');
-    //     canvas.width=video.width;
-    //     canvas.height=video.height
+    property alias textContent: _textContent
 
-    //     var context=canvas.getContext('2d');
-    //     context.drawImage(video,0,0,canvas.width,canvas.height);
-
-    //     var image=new Image();
-    //     image.src=canvas.toDateURL();
-    //     return image;
-    // }
+    TextContent{
+        id:_textContent
+    }
 
     Dialogs{
         id:dialogs
@@ -48,5 +41,7 @@ Item {
             fillMode: VideoOutput.PreserveAspectFit
         }
     }
+
+
 }
 

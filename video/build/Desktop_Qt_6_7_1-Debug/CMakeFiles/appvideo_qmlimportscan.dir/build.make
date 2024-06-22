@@ -80,8 +80,8 @@ CMakeFiles/appvideo_qmlimportscan: .qt/qml_imports/appvideo_build.cmake
 .qt/qml_imports/appvideo_build.cmake: /root/video/Content.qml
 .qt/qml_imports/appvideo_build.cmake: /root/video/Dialogs.qml
 .qt/qml_imports/appvideo_build.cmake: /root/video/PlayerList.qml
-.qt/qml_imports/appvideo_build.cmake: /root/video/screenshot.qml
-.qt/qml_imports/appvideo_build.cmake: /root/video/CusDragRect.qml
+.qt/qml_imports/appvideo_build.cmake: /root/video/TextContent.qml
+.qt/qml_imports/appvideo_build.cmake: /root/video/video.js
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appvideo"
 	cd /root/video && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner @/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appvideo_build.rsp
 

@@ -29,6 +29,6 @@ set(qml_import_scanner_import_26 "CLASSNAME;QtQuickDialogs2QuickImplPlugin;COMPO
 set(qml_import_scanner_import_27 "CLASSNAME;QtQuickLayoutsPlugin;LINKTARGET;Qt6::qquicklayoutsplugin;NAME;QtQuick.Layouts;PATH;/opt/Qt/6.7.1/gcc_64/qml/QtQuick/Layouts;PLUGIN;qquicklayoutsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Layouts/;RELATIVEPATH;QtQuick/Layouts;TYPE;module;")
 set(qml_import_scanner_import_28 "CLASSNAME;QmlFolderListModelPlugin;LINKTARGET;Qt6::qmlfolderlistmodelplugin;NAME;Qt.labs.folderlistmodel;PATH;/opt/Qt/6.7.1/gcc_64/qml/Qt/labs/folderlistmodel;PLUGIN;qmlfolderlistmodelplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/Qt/labs/folderlistmodel/;RELATIVEPATH;Qt/labs/folderlistmodel;TYPE;module;")
 set(qml_import_scanner_import_29 "CLASSNAME;QtQmlCorePlugin;LINKTARGET;Qt6::qtqmlcoreplugin;NAME;QtCore;PATH;/opt/Qt/6.7.1/gcc_64/qml/QtCore;PLUGIN;qtqmlcoreplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtCore/;RELATIVEPATH;QtCore;TYPE;module;")
-set(qml_import_scanner_import_30 "NAME;screenshot.js;PATH;/root/video/build/Desktop_Qt_6_7_1-Debug/video/screenshot.qml/screenshot.js;TYPE;javascript;")
-set(qml_import_scanner_import_31 "NAME;screenshot.js;PATH;/root/video/screenshot.qml/screenshot.js;TYPE;javascript;")
+set(qml_import_scanner_import_30 "NAME;video.js;PATH;/root/video/build/Desktop_Qt_6_7_1-Debug/video/Main.qml/video.js;TYPE;javascript;")
+set(qml_import_scanner_import_31 "NAME;video.js;PATH;/root/video/Main.qml/video.js;TYPE;javascript;")
 

@@ -13,5 +13,5 @@
 /root/video/Content.qml
 /root/video/Dialogs.qml
 /root/video/PlayerList.qml
-/root/video/screenshot.qml
-/root/video/CusDragRect.qml
+/root/video/TextContent.qml
+/root/video/video.js

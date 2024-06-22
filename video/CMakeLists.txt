@@ -38,9 +38,16 @@ qt_add_qml_module(
   SOURCES
 
   QML_FILES
-  QML_FILES screenshot.qml
-  QML_FILES CusDragRect.qml
-  QML_FILES  )
+  QML_FILES
+  QML_FILES
+  QML_FILES
+  SOURCES screenshot.cpp
+  SOURCES screenshot.h
+  QML_FILES
+  QML_FILES TextContent.qml
+  QML_FILES
+  QML_FILES video.js
+  QML_FILES    )
 
 target_compile_features(appvideo PRIVATE cxx_std_20)
 

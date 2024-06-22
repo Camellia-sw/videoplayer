@@ -6,6 +6,7 @@ import QtCore
 
 Item {
     property alias openfile:_openfile
+    property alias fileSave: _fileSave
     property alias about:_about
 
 
@@ -24,7 +25,7 @@ Item {
         currentFolder: StandardPaths.writableLocation
                        (StandardPaths.DocumentsLocation)
         fileMode: FileDialog.SaveFile
-        nameFilters: [ "ScreenShot files (*.jpg *)" ]
+        nameFilters: [ "Picture files (*.jpg *)" ]
     }
 
 

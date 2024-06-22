@@ -93,13 +93,13 @@ video/PlayerList.qml: /root/video/PlayerList.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Copying PlayerList.qml to /root/video/build/Desktop_Qt_6_7_1-Debug/video/PlayerList.qml"
 	cd /root/video && /usr/bin/cmake -E copy /root/video/PlayerList.qml /root/video/build/Desktop_Qt_6_7_1-Debug/video/PlayerList.qml
 
-video/screenshot.qml: /root/video/screenshot.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Copying screenshot.qml to /root/video/build/Desktop_Qt_6_7_1-Debug/video/screenshot.qml"
-	cd /root/video && /usr/bin/cmake -E copy /root/video/screenshot.qml /root/video/build/Desktop_Qt_6_7_1-Debug/video/screenshot.qml
+video/TextContent.qml: /root/video/TextContent.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Copying TextContent.qml to /root/video/build/Desktop_Qt_6_7_1-Debug/video/TextContent.qml"
+	cd /root/video && /usr/bin/cmake -E copy /root/video/TextContent.qml /root/video/build/Desktop_Qt_6_7_1-Debug/video/TextContent.qml
 
-video/CusDragRect.qml: /root/video/CusDragRect.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Copying CusDragRect.qml to /root/video/build/Desktop_Qt_6_7_1-Debug/video/CusDragRect.qml"
-	cd /root/video && /usr/bin/cmake -E copy /root/video/CusDragRect.qml /root/video/build/Desktop_Qt_6_7_1-Debug/video/CusDragRect.qml
+video/video.js: /root/video/video.js
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Copying video.js to /root/video/build/Desktop_Qt_6_7_1-Debug/video/video.js"
+	cd /root/video && /usr/bin/cmake -E copy /root/video/video.js /root/video/build/Desktop_Qt_6_7_1-Debug/video/video.js
 
 video/images.qrc: /root/video/images.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Copying images.qrc to /root/video/build/Desktop_Qt_6_7_1-Debug/video/images.qrc"
@@ -107,13 +107,13 @@ video/images.qrc: /root/video/images.qrc
 
 appvideo_tooling: video/Actions.qml
 appvideo_tooling: video/Content.qml
-appvideo_tooling: video/CusDragRect.qml
 appvideo_tooling: video/Dialogs.qml
 appvideo_tooling: video/Footer.qml
 appvideo_tooling: video/Main.qml
 appvideo_tooling: video/PlayerList.qml
+appvideo_tooling: video/TextContent.qml
 appvideo_tooling: video/images.qrc
-appvideo_tooling: video/screenshot.qml
+appvideo_tooling: video/video.js
 appvideo_tooling: CMakeFiles/appvideo_tooling.dir/build.make
 .PHONY : appvideo_tooling
 

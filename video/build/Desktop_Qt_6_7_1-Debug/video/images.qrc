@@ -7,6 +7,5 @@
         <file>images/next.jpg</file>
         <file>images/video.jpg</file>
         <file>images/screenshot.jpg</file>
-        <file>screenshot.qml</file>
     </qresource>
 </RCC>

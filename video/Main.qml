@@ -2,8 +2,8 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtMultimedia
-import QtQml
 import QtQuick.Window
+import "video.js" as Controller
 ApplicationWindow {
     width: 640
     height: 480
@@ -38,19 +38,24 @@ ApplicationWindow {
                     screenShotCom.source = "screenshot.qml";
                }
             }
+            ToolButton{
+                action: actions.save
+            }
         }
     }
-    Loader{
-        id: screenShotCom
-        onLoaded: {
-            item.closing.connect(function (){
-                screenShotCom.source = "";
-            });
-        }
-    }
+
+    // Loader{
+    //     id: screenShotCom
+    //     onLoaded: {
+    //         item.closing.connect(function (){
+    //             screenShotCom.source = "";
+    //         });
+    //     }
+    // }
     Actions{
         id:actions
         open.onTriggered: content.dialogs.openfile.open()
+        save.onTriggered: Controller.save();
     }
 
     ColumnLayout{

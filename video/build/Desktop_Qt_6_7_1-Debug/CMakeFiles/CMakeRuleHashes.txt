@@ -11,10 +11,14 @@ b7d3fd81f6ea3903be48452eb67a9561 .rcc/qmlcache/appvideo_CusDragRect_qml.cpp
 b37416be4fb2de6fb908600b8e62f9dc .rcc/qmlcache/appvideo_Main_qml.cpp
 ca60a797d305a8eacefd43ffac2f2d03 .rcc/qmlcache/appvideo_PlayerList_qml.cpp
 9d0e6481bf397b56c85cbdf48291f82b .rcc/qmlcache/appvideo_ScreenShot_qml.cpp
+6f7f6f36d4f3d8a7820345b92248d3b6 .rcc/qmlcache/appvideo_TextContent_qml.cpp
 132a1d6665d5010d5b73a68d237703ef .rcc/qmlcache/appvideo_cusdragrect_qml.cpp
 a2c88fb3527176704002eb4b4590bbb8 .rcc/qmlcache/appvideo_qmlcache_loader.cpp
 9e045ef8d220db7067f56cc364f618e8 .rcc/qmlcache/appvideo_screenshot_js.cpp
 f95d00ae78bc57899f7be96b5ac2d2b0 .rcc/qmlcache/appvideo_screenshot_qml.cpp
+09be61ad3cd8bd60d80810d8e704463c .rcc/qmlcache/appvideo_textContent_qml.cpp
+18a18786811ccbb877bd7057d9008156 .rcc/qmlcache/appvideo_video_js.cpp
+52bbdb419afdae48763da64a91322d4c .rcc/qmlcache/appvideo_video_qml.cpp
 c588555840d3687f0397b339408dc19e CMakeFiles/appvideo_autogen
 c588555840d3687f0397b339408dc19e CMakeFiles/appvideo_qmlimportscan
 a49beb4911595c8e86101036ab92e7e4 CMakeFiles/appvideo_qmllint
@@ -37,7 +41,11 @@ e02a38854ce7fa9466c63276d5b2d03f video/CusDragRect.qml
 64b175b9d0dd87750fb96180c03f3b75 video/Main.qml
 964210bfa3ec8c7835fb696fa7a25a4f video/PlayerList.qml
 dca34131a9c4d7f1d7bc83554f453034 video/ScreenShot.qml
+15c987bfe9d9480069e856ad7241b4ff video/TextContent.qml
 d8ca4fe569b3f955d23b608f400e3b19 video/cusdragrect.qml
 20978f1f096fea770591db576d18d8da video/images.qrc
 f5c0a04a25e840624ab1f0d5f38d663f video/screenshot.js
 1e08f586225657ecefa64beb1affe356 video/screenshot.qml
+4949322fd0e88e1a84d597dabcb33833 video/textContent.qml
+bc432c21a6f85dc17f718cde8afa4cad video/video.js
+717c316ac7024f88a010f041a7c8105a video/video.qml

@@ -1,2 +1,50 @@
 [
+    {
+        "classes": [
+            {
+                "className": "ScreenShot",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "itemObj",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "name": "shootScreen",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rootWindow",
+                                "type": "QQuickWindow*"
+                            }
+                        ],
+                        "name": "shootScreenWindow",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "ScreenShot",
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "saveimage",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "screenshot.h",
+        "outputRevision": 68
+    }
 ]

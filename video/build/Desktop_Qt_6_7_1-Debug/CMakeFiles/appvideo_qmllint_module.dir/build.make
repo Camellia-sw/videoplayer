@@ -76,8 +76,8 @@ CMakeFiles/appvideo_qmllint_module: /root/video/Actions.qml
 CMakeFiles/appvideo_qmllint_module: /root/video/Content.qml
 CMakeFiles/appvideo_qmllint_module: /root/video/Dialogs.qml
 CMakeFiles/appvideo_qmllint_module: /root/video/PlayerList.qml
-CMakeFiles/appvideo_qmllint_module: /root/video/screenshot.qml
-CMakeFiles/appvideo_qmllint_module: /root/video/CusDragRect.qml
+CMakeFiles/appvideo_qmllint_module: /root/video/TextContent.qml
+CMakeFiles/appvideo_qmllint_module: /root/video/video.js
 CMakeFiles/appvideo_qmllint_module: .rcc/qmllint/appvideo_module.rsp
 	cd /root/video && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/appvideo_module.rsp
 

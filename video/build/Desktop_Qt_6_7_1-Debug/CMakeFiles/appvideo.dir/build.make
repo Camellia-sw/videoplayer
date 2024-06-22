@@ -170,25 +170,25 @@ video/appvideo.qmltypes: appvideo_qmltyperegistrations.cpp
 	/usr/bin/cmake -E make_directory /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /video/PlayerList.qml -I /root/video/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/video/build/Desktop_Qt_6_7_1-Debug/video/qmldir --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc -o /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp /root/video/PlayerList.qml
 
-.rcc/qmlcache/appvideo_screenshot_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
-.rcc/qmlcache/appvideo_screenshot_qml.cpp: /root/video/screenshot.qml
-.rcc/qmlcache/appvideo_screenshot_qml.cpp: .qt/rcc/qmake_video.qrc
-.rcc/qmlcache/appvideo_screenshot_qml.cpp: .qt/rcc/appvideo_raw_qml_0.qrc
-.rcc/qmlcache/appvideo_screenshot_qml.cpp: video/appvideo.qmltypes
-.rcc/qmlcache/appvideo_screenshot_qml.cpp: video/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appvideo_screenshot_qml.cpp"
+.rcc/qmlcache/appvideo_TextContent_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/appvideo_TextContent_qml.cpp: /root/video/TextContent.qml
+.rcc/qmlcache/appvideo_TextContent_qml.cpp: .qt/rcc/qmake_video.qrc
+.rcc/qmlcache/appvideo_TextContent_qml.cpp: .qt/rcc/appvideo_raw_qml_0.qrc
+.rcc/qmlcache/appvideo_TextContent_qml.cpp: video/appvideo.qmltypes
+.rcc/qmlcache/appvideo_TextContent_qml.cpp: video/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appvideo_TextContent_qml.cpp"
 	/usr/bin/cmake -E make_directory /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
-	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /video/screenshot.qml -I /root/video/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/video/build/Desktop_Qt_6_7_1-Debug/video/qmldir --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc -o /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp /root/video/screenshot.qml
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /video/TextContent.qml -I /root/video/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/video/build/Desktop_Qt_6_7_1-Debug/video/qmldir --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc -o /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp /root/video/TextContent.qml
 
-.rcc/qmlcache/appvideo_CusDragRect_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
-.rcc/qmlcache/appvideo_CusDragRect_qml.cpp: /root/video/CusDragRect.qml
-.rcc/qmlcache/appvideo_CusDragRect_qml.cpp: .qt/rcc/qmake_video.qrc
-.rcc/qmlcache/appvideo_CusDragRect_qml.cpp: .qt/rcc/appvideo_raw_qml_0.qrc
-.rcc/qmlcache/appvideo_CusDragRect_qml.cpp: video/appvideo.qmltypes
-.rcc/qmlcache/appvideo_CusDragRect_qml.cpp: video/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appvideo_CusDragRect_qml.cpp"
+.rcc/qmlcache/appvideo_video_js.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/appvideo_video_js.cpp: /root/video/video.js
+.rcc/qmlcache/appvideo_video_js.cpp: .qt/rcc/qmake_video.qrc
+.rcc/qmlcache/appvideo_video_js.cpp: .qt/rcc/appvideo_raw_qml_0.qrc
+.rcc/qmlcache/appvideo_video_js.cpp: video/appvideo.qmltypes
+.rcc/qmlcache/appvideo_video_js.cpp: video/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appvideo_video_js.cpp"
 	/usr/bin/cmake -E make_directory /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
-	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /video/CusDragRect.qml -I /root/video/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/video/build/Desktop_Qt_6_7_1-Debug/video/qmldir --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc -o /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp /root/video/CusDragRect.qml
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /video/video.js -I /root/video/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/video/build/Desktop_Qt_6_7_1-Debug/video/qmldir --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_video.qrc --resource /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appvideo_raw_qml_0.qrc -o /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp /root/video/video.js
 
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/Main.qml
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/Footer.qml
@@ -196,8 +196,8 @@ video/appvideo.qmltypes: appvideo_qmltyperegistrations.cpp
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/Content.qml
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/Dialogs.qml
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/PlayerList.qml
-.qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/screenshot.qml
-.qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/CusDragRect.qml
+.qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/TextContent.qml
+.qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/video.js
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /root/video/images.qrc
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: .qt/rcc/appvideo_raw_qml_0.qrc
 .qt/rcc/qrc_appvideo_raw_qml_0.cpp: /opt/Qt/6.7.1/gcc_64/./libexec/rcc
@@ -206,7 +206,6 @@ video/appvideo.qmltypes: appvideo_qmltyperegistrations.cpp
 
 appvideo_autogen/EWIEGA46WW/qrc_images.cpp: /root/video/images.qrc
 appvideo_autogen/EWIEGA46WW/qrc_images.cpp: CMakeFiles/appvideo_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json
-appvideo_autogen/EWIEGA46WW/qrc_images.cpp: /root/video/screenshot.qml
 appvideo_autogen/EWIEGA46WW/qrc_images.cpp: /root/video/images/video.jpg
 appvideo_autogen/EWIEGA46WW/qrc_images.cpp: /root/video/images/back.png
 appvideo_autogen/EWIEGA46WW/qrc_images.cpp: /root/video/images/pause.png
@@ -284,10 +283,24 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp.s
 
+CMakeFiles/appvideo.dir/screenshot.cpp.o: CMakeFiles/appvideo.dir/flags.make
+CMakeFiles/appvideo.dir/screenshot.cpp.o: /root/video/screenshot.cpp
+CMakeFiles/appvideo.dir/screenshot.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appvideo.dir/screenshot.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/screenshot.cpp.o -MF CMakeFiles/appvideo.dir/screenshot.cpp.o.d -o CMakeFiles/appvideo.dir/screenshot.cpp.o -c /root/video/screenshot.cpp
+
+CMakeFiles/appvideo.dir/screenshot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appvideo.dir/screenshot.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/video/screenshot.cpp > CMakeFiles/appvideo.dir/screenshot.cpp.i
+
+CMakeFiles/appvideo.dir/screenshot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/screenshot.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/screenshot.cpp -o CMakeFiles/appvideo.dir/screenshot.cpp.s
+
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o: .rcc/qmlcache/appvideo_qmlcache_loader.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.i: cmake_force
@@ -301,7 +314,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlc
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o: .rcc/qmlcache/appvideo_Main_qml.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.i: cmake_force
@@ -315,7 +328,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o: .rcc/qmlcache/appvideo_Footer_qml.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.i: cmake_force
@@ -329,7 +342,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Foot
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o: .rcc/qmlcache/appvideo_Actions_qml.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.i: cmake_force
@@ -343,7 +356,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Acti
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o: .rcc/qmlcache/appvideo_Content_qml.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.i: cmake_force
@@ -357,7 +370,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Cont
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o: .rcc/qmlcache/appvideo_Dialogs_qml.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dial
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o: .rcc/qmlcache/appvideo_PlayerList_qml.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.i: cmake_force
@@ -382,38 +395,38 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Play
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.s
 
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o: .rcc/qmlcache/appvideo_screenshot_qml.cpp
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o: .rcc/qmlcache/appvideo_TextContent_qml.cpp
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp
 
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp > CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.i
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp > CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i
 
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.s
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s
 
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o: CMakeFiles/appvideo.dir/flags.make
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o: .rcc/qmlcache/appvideo_CusDragRect_qml.cpp
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o: CMakeFiles/appvideo.dir/flags.make
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o: .rcc/qmlcache/appvideo_video_js.cpp
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp
 
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp > CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.i
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp > CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
 
-CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.s
+CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o: .qt/rcc/qrc_appvideo_raw_qml_0.cpp
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o -MF CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o.d -o CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp
 
 CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.i: cmake_force
@@ -427,7 +440,7 @@ CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qm
 CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o: CMakeFiles/appvideo.dir/flags.make
 CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o: appvideo_autogen/EWIEGA46WW/qrc_images.cpp
 CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o: CMakeFiles/appvideo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o -MF CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o.d -o CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o -c /root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_autogen/EWIEGA46WW/qrc_images.cpp
 
 CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.i: cmake_force
@@ -444,6 +457,7 @@ appvideo_OBJECTS = \
 "CMakeFiles/appvideo.dir/main.cpp.o" \
 "CMakeFiles/appvideo.dir/appvideo_qmltyperegistrations.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp.o" \
+"CMakeFiles/appvideo.dir/screenshot.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o" \
@@ -451,8 +465,8 @@ appvideo_OBJECTS = \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o" \
-"CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o" \
-"CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o" \
+"CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o" \
+"CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o" \
 "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o" \
 "CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o"
 
@@ -463,6 +477,7 @@ appvideo: CMakeFiles/appvideo.dir/appvideo_autogen/mocs_compilation.cpp.o
 appvideo: CMakeFiles/appvideo.dir/main.cpp.o
 appvideo: CMakeFiles/appvideo.dir/appvideo_qmltyperegistrations.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp.o
+appvideo: CMakeFiles/appvideo.dir/screenshot.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o
@@ -470,8 +485,8 @@ appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/app
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o
-appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_screenshot_qml.cpp.o
-appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_CusDragRect_qml.cpp.o
+appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o
+appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp.o
 appvideo: CMakeFiles/appvideo.dir/appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o
 appvideo: CMakeFiles/appvideo.dir/build.make
@@ -486,7 +501,7 @@ appvideo: /opt/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1
 appvideo: /usr/lib/libGLX.so
 appvideo: /usr/lib/libOpenGL.so
 appvideo: CMakeFiles/appvideo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable appvideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable appvideo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appvideo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -501,13 +516,13 @@ CMakeFiles/appvideo.dir/depend: .qt/rcc/qrc_appvideo_raw_qml_0.cpp
 CMakeFiles/appvideo.dir/depend: .qt/rcc/qrc_qmake_video.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_Actions_qml.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_Content_qml.cpp
-CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_CusDragRect_qml.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_Dialogs_qml.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_Footer_qml.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_Main_qml.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_PlayerList_qml.cpp
+CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_TextContent_qml.cpp
 CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_qmlcache_loader.cpp
-CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_screenshot_qml.cpp
+CMakeFiles/appvideo.dir/depend: .rcc/qmlcache/appvideo_video_js.cpp
 CMakeFiles/appvideo.dir/depend: appvideo_autogen/EWIEGA46WW/qrc_images.cpp
 CMakeFiles/appvideo.dir/depend: appvideo_qmltyperegistrations.cpp
 CMakeFiles/appvideo.dir/depend: meta_types/appvideo_json_file_list.txt

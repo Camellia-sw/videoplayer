@@ -1,11 +1,14 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include "screenshot.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
+    ScreenShot screenshot;
+    engine.rootContext()->setContextProperty("screenshot", &screenshot);
     const QUrl url(QStringLiteral("qrc:/video/Main.qml"));
     QObject::connect(
         &engine,
