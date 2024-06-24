@@ -3,6 +3,7 @@ bbe3c60c63859aa1669941cd19562d92 .qt/qml_imports/appvideo_build.cmake
 16e11b36dd9970050f849c0f1405b317 .qt/rcc/qrc_appvideo_raw_qml_0.cpp
 53584f4899af2670233cf6903a1b8e03 .qt/rcc/qrc_qmake_video.cpp
 0ec27fd5c3ef8c89f3d6003913cdca6d .rcc/qmlcache/appvideo_Actions_qml.cpp
+0d3c0b2f62dc3f2f7573e5b90bc2f021 .rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp
 3f3d75bbdeb8a70587c587415849a14f .rcc/qmlcache/appvideo_Content_qml.cpp
 b7d3fd81f6ea3903be48452eb67a9561 .rcc/qmlcache/appvideo_CusDragRect_qml.cpp
 08e909d86db2aba0a45e25b8a84ad901 .rcc/qmlcache/appvideo_Dialogs_qml.cpp
@@ -32,6 +33,7 @@ bf6215e56cc3c9fe86151efa36ff4267 appvideo_autogen/timestamp
 bcbc79d8692a0ae799fe5f9f704c9934 meta_types/qt6appvideo_debug_metatypes.json
 06ffe58f35512fadb5ee050784f42c1c meta_types/qt6appvideo_debug_metatypes.json.gen
 ca06ff29c3d3e6f14199c9c0a1d70613 video/Actions.qml
+9b142dca3130eda0fafdf63b998f2480 video/BarrageDelegate.qml
 0bf5e3d1111e6e013165455451e6fdbb video/Content.qml
 e02a38854ce7fa9466c63276d5b2d03f video/CusDragRect.qml
 438c77668dd659b43650d7e43c45b419 video/CusDragrect.qml

@@ -13,5 +13,4 @@
 /root/video/Content.qml
 /root/video/Dialogs.qml
 /root/video/PlayerList.qml
-/root/video/TextContent.qml
-/root/video/video.js
+/root/video/BarrageDelegate.qml

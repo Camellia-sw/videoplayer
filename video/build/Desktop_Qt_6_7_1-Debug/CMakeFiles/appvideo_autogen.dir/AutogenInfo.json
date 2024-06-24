@@ -1140,9 +1140,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/root/video/screenshot.h",
+			"/root/video/BarrageModel.h",
 			"MU",
-			"EWIEGA46WW/moc_screenshot.cpp",
+			"EWIEGA46WW/moc_BarrageModel.cpp",
 			null
 		]
 	],
@@ -1222,14 +1222,13 @@
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp",
+		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp",
-		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp",
-		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -1242,8 +1241,8 @@
 	"SETTINGS_FILE" : "/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appvideo_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/root/video/main.cpp", "MU", null ],
-		[ "/root/video/screenshot.cpp", "MU", null ]
+		[ "/root/video/BarrageModel.cpp", "MU", null ],
+		[ "/root/video/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
@@ -1252,14 +1251,13 @@
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appvideo_raw_qml_0.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_video.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp",
+		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp",
-		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp",
-		"/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp",
 		"/root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],

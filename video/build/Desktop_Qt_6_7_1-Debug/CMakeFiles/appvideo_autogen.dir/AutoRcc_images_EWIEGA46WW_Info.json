@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "/root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_autogen/include",
 	"INPUTS" : 
 	[
+		"/root/video/BarrageDelegate.qml",
 		"/root/video/images/video.jpg",
 		"/root/video/images/back.png",
 		"/root/video/images/pause.png",

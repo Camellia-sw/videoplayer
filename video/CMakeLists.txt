@@ -41,13 +41,16 @@ qt_add_qml_module(
   QML_FILES
   QML_FILES
   QML_FILES
-  SOURCES screenshot.cpp
-  SOURCES screenshot.h
+  SOURCES
+  SOURCES
   QML_FILES
-  QML_FILES TextContent.qml
   QML_FILES
-  QML_FILES video.js
-  QML_FILES    )
+  QML_FILES
+  QML_FILES
+  QML_FILES
+  SOURCES BarrageModel.h
+  SOURCES BarrageModel.cpp
+  QML_FILES BarrageDelegate.qml    )
 
 target_compile_features(appvideo PRIVATE cxx_std_20)
 

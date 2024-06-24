@@ -7,5 +7,6 @@
         <file>images/next.jpg</file>
         <file>images/video.jpg</file>
         <file>images/screenshot.jpg</file>
+        <file>BarrageDelegate.qml</file>
     </qresource>
 </RCC>

@@ -2,49 +2,31 @@
     {
         "classes": [
             {
-                "className": "ScreenShot",
+                "className": "BarrageModel",
                 "methods": [
                     {
                         "access": "public",
                         "arguments": [
                             {
-                                "name": "itemObj",
-                                "type": "QObject*"
+                                "name": "barrage",
+                                "type": "QString"
                             }
                         ],
-                        "name": "shootScreen",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "rootWindow",
-                                "type": "QQuickWindow*"
-                            }
-                        ],
-                        "name": "shootScreenWindow",
+                        "name": "addBarrage",
                         "returnType": "void"
                     }
                 ],
                 "object": true,
-                "qualifiedClassName": "ScreenShot",
-                "slots": [
-                    {
-                        "access": "private",
-                        "name": "saveimage",
-                        "returnType": "void"
-                    }
-                ],
+                "qualifiedClassName": "BarrageModel",
                 "superClasses": [
                     {
                         "access": "public",
-                        "name": "QObject"
+                        "name": "QAbstractListModel"
                     }
                 ]
             }
         ],
-        "inputFile": "screenshot.h",
+        "inputFile": "BarrageModel.h",
         "outputRevision": 68
     }
 ]

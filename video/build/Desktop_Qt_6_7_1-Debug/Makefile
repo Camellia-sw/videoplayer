@@ -333,6 +333,30 @@ appvideo_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo_autogen.dir/build.make CMakeFiles/appvideo_autogen.dir/build
 .PHONY : appvideo_autogen/fast
 
+BarrageModel.o: BarrageModel.cpp.o
+.PHONY : BarrageModel.o
+
+# target to build an object file
+BarrageModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/BarrageModel.cpp.o
+.PHONY : BarrageModel.cpp.o
+
+BarrageModel.i: BarrageModel.cpp.i
+.PHONY : BarrageModel.i
+
+# target to preprocess a source file
+BarrageModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/BarrageModel.cpp.i
+.PHONY : BarrageModel.cpp.i
+
+BarrageModel.s: BarrageModel.cpp.s
+.PHONY : BarrageModel.s
+
+# target to generate assembly for a file
+BarrageModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/BarrageModel.cpp.s
+.PHONY : BarrageModel.cpp.s
+
 appvideo_autogen/EWIEGA46WW/qrc_images.o: appvideo_autogen/EWIEGA46WW/qrc_images.cpp.o
 .PHONY : appvideo_autogen/EWIEGA46WW/qrc_images.o
 
@@ -477,6 +501,30 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.cpp.s
 
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.cpp.s
+
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.o
 
@@ -597,30 +645,6 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.s
 
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.o
-
-# target to build an object file
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.o
-
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.i
-
-# target to preprocess a source file
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.i
-
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.s
-
-# target to generate assembly for a file
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.cpp.s
-
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.o
 
@@ -645,30 +669,6 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.s
 
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.o
-
-# target to build an object file
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
-
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.i
-
-# target to preprocess a source file
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
-
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.s
-
-# target to generate assembly for a file
-build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
-.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -692,30 +692,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-screenshot.o: screenshot.cpp.o
-.PHONY : screenshot.o
-
-# target to build an object file
-screenshot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/screenshot.cpp.o
-.PHONY : screenshot.cpp.o
-
-screenshot.i: screenshot.cpp.i
-.PHONY : screenshot.i
-
-# target to preprocess a source file
-screenshot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/screenshot.cpp.i
-.PHONY : screenshot.cpp.i
-
-screenshot.s: screenshot.cpp.s
-.PHONY : screenshot.s
-
-# target to generate assembly for a file
-screenshot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/screenshot.cpp.s
-.PHONY : screenshot.cpp.s
 
 # Help Target
 help:
@@ -742,6 +718,9 @@ help:
 	@echo "... appvideo_qmltyperegistration"
 	@echo "... appvideo"
 	@echo "... appvideo_tooling"
+	@echo "... BarrageModel.o"
+	@echo "... BarrageModel.i"
+	@echo "... BarrageModel.s"
 	@echo "... appvideo_autogen/EWIEGA46WW/qrc_images.o"
 	@echo "... appvideo_autogen/EWIEGA46WW/qrc_images.i"
 	@echo "... appvideo_autogen/EWIEGA46WW/qrc_images.s"
@@ -760,6 +739,9 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Actions_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_BarrageDelegate_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Content_qml.s"
@@ -775,21 +757,12 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.s"
-	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.o"
-	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.i"
-	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_TextContent_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.s"
-	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.o"
-	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.i"
-	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... screenshot.o"
-	@echo "... screenshot.i"
-	@echo "... screenshot.s"
 .PHONY : help
 
 

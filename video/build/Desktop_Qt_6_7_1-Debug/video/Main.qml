@@ -3,7 +3,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtMultimedia
 import QtQuick.Window
-import "video.js" as Controller
+import BarrageModels 1.0
 ApplicationWindow {
     width: 640
     height: 480
@@ -11,7 +11,9 @@ ApplicationWindow {
     title: qsTr("Video Player")
     id:rootWindow
 
-    property int curIndex: 0
+    BarrageModel{
+        id:barrageModel
+    }
     menuBar: MenuBar {
         Menu {
             title: qsTr("&File")
@@ -29,50 +31,38 @@ ApplicationWindow {
     header: ToolBar {
         RowLayout{
             ToolButton{ action: actions.open }
-            ToolButton{
-                action:actions.screenshot
-                id:screenshotbutton
-                onClicked:{
-                    //screenshot.shootScreen(screenshotbutton)
-                    //screenshot.shootScreenWindow(rootWindow)
-                    screenShotCom.source = "screenshot.qml";
-               }
-            }
-            ToolButton{
-                action: actions.save
-            }
+            ToolButton{action:actions.screenshot}
         }
     }
 
-    // Loader{
-    //     id: screenShotCom
-    //     onLoaded: {
-    //         item.closing.connect(function (){
-    //             screenShotCom.source = "";
-    //         });
-    //     }
-    // }
     Actions{
         id:actions
         open.onTriggered: content.dialogs.openfile.open()
-        save.onTriggered: Controller.save();
     }
 
     ColumnLayout{
         anchors.fill: parent
         spacing: 0
 
-        PlayerList{
-            id:playerlist
-        }
+        // PlayerList{
+        //     id:playerlist
+        // }
 
         Content{
             id:content
             anchors.fill:parent
+            //弹幕显示区域
+            ListView {
+                id: barrageView
+                anchors.fill: parent
+                model: barrageModel
+                delegate: BarrageDelegate {} // 自定义的代理用于显示弹幕
+            }
         }
 
         Footer{
             id:footer
+            anchors.bottom: parent.bottom
         }
 
     }

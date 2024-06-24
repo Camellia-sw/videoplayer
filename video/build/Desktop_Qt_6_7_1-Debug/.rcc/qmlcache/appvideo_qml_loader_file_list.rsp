@@ -8,5 +8,4 @@
 /video/Content.qml
 /video/Dialogs.qml
 /video/PlayerList.qml
-/video/TextContent.qml
-/video/video.js
+/video/BarrageDelegate.qml

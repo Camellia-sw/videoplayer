@@ -2,62 +2,56 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtMultimedia
-
+import BarrageModels 1.0
 Rectangle{
     Layout.fillWidth: true;
     height:60
 
     color:"#f0f0f0"
-    RowLayout{
-        anchors.fill:parent
+    ColumnLayout{
 
-        ToolButton{
-            action:actions.pre
+        RowLayout{
+            id:playerbutton
+            ToolButton{ action:actions.pre}
+            ToolButton{ action:actions.back}
+            ToolButton{ action:actions.pause}
+            ToolButton{ action:actions.forward}
+            ToolButton{ action:actions.next}
 
-                onClicked: {
-                    rootWindow.curIndex--
-                    //mainItem.curIndex%=mainItem.allCount
-                    console.log("上一曲：",rootWindow.curIndex)
-                    PlayerList.setListIndex(rootWindow.curIndex)
+            Slider{
+                id:slider
+                width:parent.width
+                Layout.fillWidth: true
+                height:25
                 }
-        }
-        ToolButton{ action:actions.back}
-        ToolButton{ action:actions.pause}
-        ToolButton{ action:actions.forward}
-        ToolButton{ action:actions.next}
 
-        Slider{
-            id:slider
-            width:parent.width
-            Layout.fillWidth: true
-            height:25
+            ToolButton{action: actions.voice}
+
+
+            Slider{
+                id:slider_voice
+                Layout.preferredWidth: parent.width/10
+                //Layout.fillWidth: true
+                height:25
             }
-
-
-
-        ToolButton{
-            action: actions.voice
-            onClicked: {
-                screenShotCom.source = "Screenshot.qml";
-            }
-        }
-
-        Loader{
-            id: screenShotCom
-            onLoaded: {
-                item.closing.connect(function (){
-                    screenShotCom.source = "";
-                });
+            TextField {
+                    id: inputField
+                    Layout.fillWidth: true
+                }
+            Button{
+                text:"Send"
+                width:100
+                height: 20
+                anchors.left: inputField.right
+                onClicked: {
+                    var text = inputField.text;
+                    //if (!text.isEmpty()) {
+                        barrageModel.addBarrage(text);
+                        inputField.clear();
+                    //}
+                }
             }
         }
-
-        Slider{
-            id:slider_voice
-            Layout.preferredWidth: parent.width/10
-            Layout.fillWidth: true
-            height:25
-        }
-
 
         Actions{
             id:actions

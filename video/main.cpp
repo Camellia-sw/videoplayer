@@ -1,14 +1,16 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "screenshot.h"
+#include "BarrageModel.h"
+
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    ScreenShot screenshot;
-    engine.rootContext()->setContextProperty("screenshot", &screenshot);
+    BarrageModel barrageModel;
+    engine.rootContext()->setContextProperty("barragemodel", &barrageModel);
+    qmlRegisterType<BarrageModel>("BarrageModels", 1, 0, "BarrageModel");
     const QUrl url(QStringLiteral("qrc:/video/Main.qml"));
     QObject::connect(
         &engine,

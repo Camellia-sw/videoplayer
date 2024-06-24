@@ -450,74 +450,8 @@ CMakeFiles/appvideo.dir/main.cpp.o: /root/video/main.cpp \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/QQmlContext \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlcontext.h \
-  /root/video/screenshot.h /opt/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/QImage \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qimage.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qcolor.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qrgb.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qrgba64.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qrect.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qpixelformat.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qtransform.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qpolygon.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qregion.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qline.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/QQuickItem \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qquickitem.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qtquickglobal.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qtquick-config.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qtquickexports.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlcomponent.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QObject \
+  /root/video/BarrageModel.h \
+  /opt/Qt/6.7.1/gcc_64/include/QtCore/QAbstractListModel \
+  /opt/Qt/6.7.1/gcc_64/include/QtCore/qabstractitemmodel.h \
   /opt/Qt/6.7.1/gcc_64/include/QtCore/QList \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qproperty.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qpropertyprivate.h \
-  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/source_location \
-  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/experimental/source_location \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qevent.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qiodevice.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qeventpoint.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qvector2d.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qvectornd.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qinputdevice.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qscreen.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QRect \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QSize \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qkeysequence.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qfont.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qendian.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qaccessible.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qaccessible_base.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/QQuickItemGrabResult \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qquickitemgrabresult.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QUrl \
-  /opt/Qt/6.7.1/gcc_64/include/QtQml/QJSValue \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/QQuickWindow \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qquickwindow.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qsgrendererinterface.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qsgnode.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQuick/qsggeometry.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QRectF \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/QMatrix4x4 \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qmatrix4x4.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qvector3d.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qvector4d.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qquaternion.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qgenericmatrix.h \
-  /usr/lib/clang/17/include/float.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qwindow.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QMargins \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qsurface.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qsurfaceformat.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qpixmap.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qcursor.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlinfo.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/QSharedPointer
+  /opt/Qt/6.7.1/gcc_64/include/QtCore/QString

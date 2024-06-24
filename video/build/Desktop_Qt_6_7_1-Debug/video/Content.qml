@@ -9,13 +9,6 @@ Item {
     property alias videoItem:_videoItem
 
     property url audioSource
-
-    property alias textContent: _textContent
-
-    TextContent{
-        id:_textContent
-    }
-
     Dialogs{
         id:dialogs
         openfile.onAccepted:{

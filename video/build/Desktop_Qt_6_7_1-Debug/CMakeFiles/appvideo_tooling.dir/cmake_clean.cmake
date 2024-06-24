@@ -1,13 +1,12 @@
 file(REMOVE_RECURSE
   "video/Actions.qml"
+  "video/BarrageDelegate.qml"
   "video/Content.qml"
   "video/Dialogs.qml"
   "video/Footer.qml"
   "video/Main.qml"
   "video/PlayerList.qml"
-  "video/TextContent.qml"
   "video/images.qrc"
-  "video/video.js"
 )
 
 # Per-language clean rules from dependency scanning.
