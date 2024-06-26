@@ -24,6 +24,7 @@ qt_add_qml_module(appvideo
     QML_FILES
     QML_FILES Dialogs.qml
     QML_FILES Content.qml
+    QML_FILES video.js
 )
 
 target_compile_features(appvideo PRIVATE cxx_std_20)

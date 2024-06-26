@@ -1,3 +1,4 @@
+//对话框
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Dialogs
@@ -18,20 +19,12 @@ Item {
     }
 
 
-    Dialog {
+    MessageDialog {
         id: _about
-        title: qsTr("About")
-
-        Label {
-            anchors.fill: parent
-            text: qsTr("A QML Video Viewer\n")
-            horizontalAlignment: Text.AlignHCenter
-        }
+        modality: Qt.WindowModal
+        buttons:MessageDialog.Ok
+        informativeText: qsTr("About")
+        text:"This is a vedio"
     }
 
 }
-
-
-
-
-

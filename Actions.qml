@@ -1,7 +1,6 @@
 import QtQuick
 import QtQuick.Controls
 
-
 Item {
     property alias open: _open
     property alias folder: _folder
@@ -14,6 +13,9 @@ Item {
     property alias contents: _contents
     property alias exit: _exit
     property alias voice: _voice
+    property alias one:_one
+    property alias two:_two
+    property alias half:_half
 
     Action {
         id: _open
@@ -65,6 +67,8 @@ Item {
         id: _exit
         text: qsTr("E&xit")
         icon.name: "application-exit"
+        shortcut: "Ctrl+q"
+        onTriggered: Qt.quit();
     }
 
     Action{
@@ -79,5 +83,23 @@ Item {
         icon.name: "help-about"
     }
 
+    Action{
+        id:_half
+        text:qsTr("&0.5x")
+        icon.name: "half"
+
+    }
+
+    Action{
+        id:_one
+        text:qsTr("&1x")
+        icon.name: "one"
+    }
+
+    Action{
+        id:_two
+        text:qsTr("&2x")
+        icon.name: "two"
+    }
 }
 

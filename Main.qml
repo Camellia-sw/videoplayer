@@ -3,6 +3,8 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtMultimedia
 
+import "video.js" as Controller
+
 ApplicationWindow {
     width: 640
     height: 480
@@ -18,8 +20,15 @@ ApplicationWindow {
 
         Menu{
             title: qsTr("&Help")
-            contentData:[ actions.contents,
-                actions.about ]
+            MenuItem{ action:actions.contents}
+            MenuItem{ action:actions.about }
+        }
+
+        Menu{
+            title: qsTr("&倍速")
+            MenuItem { action:actions.half }
+            MenuItem { action:actions.one }
+            MenuItem { action:actions.two }
         }
     }
 
@@ -34,6 +43,9 @@ ApplicationWindow {
         id:actions
         open.onTriggered: content.dialogs.openfile.open()
         folder.onTriggered: content.dialogs.folderOpen.open()
+        half.onTriggered: Controller.half()
+        one.onTriggered: Controller.one()
+        two.onTriggered: Controller.two()
     }
 
     Content{
@@ -52,7 +64,7 @@ ApplicationWindow {
             Layout.fillHeight: true
             padding:0
         }
-
+        //页脚
         Footer{
             id:footer
         }

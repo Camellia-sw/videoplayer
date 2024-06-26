@@ -1,6 +1,10 @@
+//页脚
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+
+import "video.js" as Controller
+
 
 Rectangle{
     Layout.fillWidth: true;
@@ -34,20 +38,31 @@ Rectangle{
             }
         }
 
-        ToolButton{ action:actions.pre}
-        ToolButton{ action:actions.back}
-        ToolButton{ action:actions.pause}
-        ToolButton{ action:actions.forward}
-        ToolButton{ action:actions.next}
+
+        ToolButton{ action:actions.pre}//上一个
+        ToolButton{ action:actions.back}//快退
+        ToolButton{ action:actions.pause}//暂停
+        ToolButton{ action:actions.forward}//快进
+        ToolButton{ action:actions.next}//下一个
+        Button{
+            text:"截屏"
+            onClicked: {
+                // 在这里调用 Video.js 的截屏函数
+                   video.takeSnapshot(function(dataUrl) {
+                     // 在这里处理截屏图像，例如显示在屏幕上或保存到文件
+                     console.log(dataUrl);
+                   }
+                   )
+            }
+        }
+
 
         Actions{
             id:actions
-            pause.onTriggered: content.setImageFillMode(Image.Pause)
-            back.onTriggered: content.setImageFillMode(Image.Back)
-            forward.onTriggered: content.setImageFillMode(Image.Forward)
-            pre.onTriggered: content.setImageFillMode(Image.Pre)
-            next.onTriggered: content.setImageFillMode(Image.Next)
+            pause.onTriggered:Controller.pause()
+            forward.onTriggered: Controller.forward()
         }
+
     }
 
 
