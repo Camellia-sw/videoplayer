@@ -7,8 +7,6 @@ import QtCore
 Item {
     property alias openfile:_openfile
     property alias fileSave: _fileSave
-    property alias about:_about
-
 
     FileDialog {
         id: _openfile
@@ -26,18 +24,6 @@ Item {
                        (StandardPaths.DocumentsLocation)
         fileMode: FileDialog.SaveFile
         nameFilters: [ "Picture files (*.jpg *)" ]
-    }
-
-
-    Dialog {
-        id: _about
-        title: qsTr("About")
-
-        Label {
-            anchors.fill: parent
-            text: qsTr("A QML Video Viewer\n")
-            horizontalAlignment: Text.AlignHCenter
-        }
     }
 
 }

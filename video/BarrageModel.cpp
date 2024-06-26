@@ -6,7 +6,7 @@ BarrageModel::BarrageModel(QObject *parent)
 
 int BarrageModel::rowCount(const QModelIndex &parent) const
 {
-    // 对于这个简单的模型，我们总是返回barrages列表的大小
+    //返回barrages列表的大小
     Q_UNUSED(parent);
     return barrages.count();
 }
@@ -36,10 +36,4 @@ void BarrageModel::addBarrage(const QString &barrage)
     beginInsertRows(QModelIndex(), barrages.count(), barrages.count());
     barrages.append(barrage);
     endInsertRows();
-}
-
-// 检查模型是否为空
-bool BarrageModel::isEmpty() const
-{
-    return barrages.empty(); // 使用STL容器的empty()函数
 }

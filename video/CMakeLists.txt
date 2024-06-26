@@ -32,7 +32,7 @@ qt_add_qml_module(
   QML_FILES
   Dialogs.qml
   QML_FILES
-  PlayerList.qml
+
   SOURCES
 
   SOURCES
@@ -50,7 +50,8 @@ qt_add_qml_module(
   QML_FILES
   SOURCES BarrageModel.h
   SOURCES BarrageModel.cpp
-  QML_FILES BarrageDelegate.qml    )
+  QML_FILES BarrageDelegate.qml
+  SOURCES     )
 
 target_compile_features(appvideo PRIVATE cxx_std_20)
 

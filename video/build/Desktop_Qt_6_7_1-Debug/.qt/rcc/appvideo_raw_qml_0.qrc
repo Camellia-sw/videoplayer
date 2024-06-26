@@ -5,7 +5,6 @@
     <file alias="Actions.qml">/root/video/Actions.qml</file>
     <file alias="Content.qml">/root/video/Content.qml</file>
     <file alias="Dialogs.qml">/root/video/Dialogs.qml</file>
-    <file alias="PlayerList.qml">/root/video/PlayerList.qml</file>
     <file alias="BarrageDelegate.qml">/root/video/BarrageDelegate.qml</file>
     <file alias="images.qrc">/root/video/images.qrc</file>
   </qresource>

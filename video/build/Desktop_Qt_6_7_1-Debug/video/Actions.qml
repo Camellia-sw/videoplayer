@@ -9,12 +9,9 @@ Item {
     property alias forward: _forward
     property alias pre: _pre
     property alias next: _next
-    property alias about: _about
-    property alias contents: _contents
     property alias exit: _exit
     property alias voice: _voice
-    property alias screenshot:_screenshot
-    property alias save:_save
+
     Action {
         id: _open
         text: qsTr("&OpenFile...")
@@ -49,6 +46,7 @@ Item {
     Action {
         id: _pause
         icon.source: "qrc:/images/pause"
+
     }
     Action {
         id: _forward
@@ -61,12 +59,6 @@ Item {
     }
 
     Action {
-        id: _screenshot
-        text:qsTr("Screenshot")
-        icon.source: "qrc:/images/screenshot"
-    }
-
-    Action {
         id: _exit
         text: qsTr("E&xit")
         icon.name: "application-exit"
@@ -74,17 +66,7 @@ Item {
         onTriggered: Qt.quit();
     }
 
-    Action{
-        id: _contents
-        text:qsTr("&contents")
-        icon.name:"help-contents"
-    }
 
-    Action {
-        id: _about
-        text: qsTr("&About")
-        icon.name: "help-about"
-    }
 
 }
 

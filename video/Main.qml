@@ -21,17 +21,11 @@ ApplicationWindow {
             MenuItem { action:actions.exit }
         }
 
-        Menu{
-            title: qsTr("&Help")
-            contentData:[ actions.contents,
-                actions.about ]
-        }
-    }
+     }
 
     header: ToolBar {
         RowLayout{
             ToolButton{ action: actions.open }
-            ToolButton{action:actions.screenshot}
         }
     }
 
@@ -43,10 +37,6 @@ ApplicationWindow {
     ColumnLayout{
         anchors.fill: parent
         spacing: 0
-
-        // PlayerList{
-        //     id:playerlist
-        // }
 
         Content{
             id:content
@@ -62,9 +52,7 @@ ApplicationWindow {
 
         Footer{
             id:footer
-            anchors.bottom: parent.bottom
         }
-
     }
 }
 

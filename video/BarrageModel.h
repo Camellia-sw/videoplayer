@@ -19,8 +19,6 @@ public:
 
     Q_INVOKABLE void addBarrage(const QString &barrage);
 
-    bool isEmpty() const;
-
 private:
     QList<QString> barrages;
 };

@@ -5,13 +5,13 @@ import QtMultimedia
 import BarrageModels 1.0
 Rectangle{
     Layout.fillWidth: true;
-    height:60
-
+    height:50
+    anchors.bottom: parent.bottom
     color:"#f0f0f0"
     ColumnLayout{
-
+        anchors.fill:parent
         RowLayout{
-            id:playerbutton
+
             ToolButton{ action:actions.pre}
             ToolButton{ action:actions.back}
             ToolButton{ action:actions.pause}
@@ -31,7 +31,6 @@ Rectangle{
             Slider{
                 id:slider_voice
                 Layout.preferredWidth: parent.width/10
-                //Layout.fillWidth: true
                 height:25
             }
             TextField {
@@ -45,12 +44,11 @@ Rectangle{
                 anchors.left: inputField.right
                 onClicked: {
                     var text = inputField.text;
-                    //if (!text.isEmpty()) {
-                        barrageModel.addBarrage(text);
-                        inputField.clear();
-                    //}
+                    barrageModel.addBarrage(text);
+                    inputField.clear();
                 }
             }
+
         }
 
         Actions{
