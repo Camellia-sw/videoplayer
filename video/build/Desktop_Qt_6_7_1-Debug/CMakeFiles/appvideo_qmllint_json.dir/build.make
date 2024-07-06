@@ -76,6 +76,7 @@ CMakeFiles/appvideo_qmllint_json: /root/video/Actions.qml
 CMakeFiles/appvideo_qmllint_json: /root/video/Content.qml
 CMakeFiles/appvideo_qmllint_json: /root/video/Dialogs.qml
 CMakeFiles/appvideo_qmllint_json: /root/video/BarrageDelegate.qml
+CMakeFiles/appvideo_qmllint_json: /root/video/PlayerList.qml
 CMakeFiles/appvideo_qmllint_json: .rcc/qmllint/appvideo_json.rsp
 	cd /root/video && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/appvideo_json.rsp
 

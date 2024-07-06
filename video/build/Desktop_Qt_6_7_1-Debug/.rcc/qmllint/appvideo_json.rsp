@@ -13,5 +13,6 @@
 /root/video/Content.qml
 /root/video/Dialogs.qml
 /root/video/BarrageDelegate.qml
+/root/video/PlayerList.qml
 --json
 /root/video/build/Desktop_Qt_6_7_1-Debug/appvideo_qmllint.json

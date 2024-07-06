@@ -7,8 +7,6 @@ Item {
     property alias pause: _pause
     property alias back: _back
     property alias forward: _forward
-    property alias pre: _pre
-    property alias next: _next
     property alias exit: _exit
     property alias voice: _voice
 
@@ -31,10 +29,6 @@ Item {
         icon.source:"qrc:/images/video"
     }
 
-    Action {
-        id: _pre
-        icon.source: "qrc:/images/pre"
-    }
 
 
     Action {
@@ -54,19 +48,11 @@ Item {
     }
 
     Action {
-        id: _next
-        icon.source: "qrc:/images/next"
-    }
-
-    Action {
         id: _exit
         text: qsTr("E&xit")
         icon.name: "application-exit"
         shortcut: "Ctrl+q"
         onTriggered: Qt.quit();
     }
-
-
-
 }
 

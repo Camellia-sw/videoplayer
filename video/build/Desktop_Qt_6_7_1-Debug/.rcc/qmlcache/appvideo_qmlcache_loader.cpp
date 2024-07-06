@@ -47,6 +47,13 @@ namespace _video_BarrageDelegate_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _video_PlayerList_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -67,6 +74,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/video/Content.qml"), &QmlCacheGeneratedCode::_video_Content_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/video/Dialogs.qml"), &QmlCacheGeneratedCode::_video_Dialogs_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/video/BarrageDelegate.qml"), &QmlCacheGeneratedCode::_video_BarrageDelegate_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/video/PlayerList.qml"), &QmlCacheGeneratedCode::_video_PlayerList_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

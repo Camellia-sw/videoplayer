@@ -34,6 +34,8 @@ ApplicationWindow {
         open.onTriggered: content.dialogs.openfile.open()
     }
 
+
+
     ColumnLayout{
         anchors.fill: parent
         spacing: 0
@@ -48,8 +50,15 @@ ApplicationWindow {
                 model: barrageModel
                 delegate: BarrageDelegate {} // 自定义的代理用于显示弹幕
             }
-        }
 
+            PlayerList{
+                id:playerlist
+                visible:false
+                anchors.bottom: parent.bottom
+                anchors.right: parent.right
+            }
+
+        }
         Footer{
             id:footer
         }

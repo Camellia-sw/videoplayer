@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "video/Dialogs.qml"
   "video/Footer.qml"
   "video/Main.qml"
+  "video/PlayerList.qml"
   "video/images.qrc"
 )
 

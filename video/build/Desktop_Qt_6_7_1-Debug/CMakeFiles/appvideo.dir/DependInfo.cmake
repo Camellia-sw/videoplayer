@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o" "gcc" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Dialogs_qml.cpp.o.d"
   "/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o" "gcc" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Footer_qml.cpp.o.d"
   "/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o" "gcc" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_Main_qml.cpp.o.d"
+  "/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o" "gcc" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_PlayerList_qml.cpp.o.d"
   "/root/video/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o" "gcc" "CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.o.d"
   "/root/video/main.cpp" "CMakeFiles/appvideo.dir/main.cpp.o" "gcc" "CMakeFiles/appvideo.dir/main.cpp.o.d"
   )

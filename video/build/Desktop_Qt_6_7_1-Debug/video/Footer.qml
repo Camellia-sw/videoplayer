@@ -3,20 +3,22 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtMultimedia
 import BarrageModels 1.0
+
 Rectangle{
+    id:footer
     Layout.fillWidth: true;
     height:50
     anchors.bottom: parent.bottom
-    color:"#f0f0f0"
+    color:"#C0D9D9"
+
     ColumnLayout{
         anchors.fill:parent
         RowLayout{
 
-            ToolButton{ action:actions.pre}
+
             ToolButton{ action:actions.back}
             ToolButton{ action:actions.pause}
             ToolButton{ action:actions.forward}
-            ToolButton{ action:actions.next}
 
             Slider{
                 id:slider
@@ -48,16 +50,16 @@ Rectangle{
                     inputField.clear();
                 }
             }
+            ToolButton{
+                icon.source: "qrc:/images/play-list"
+                onClicked: {
+                    playerlist.visible=true
+                }
+                onDoubleClicked: {
+                    playerlist.visible=false
+                }
+            }
 
-        }
-
-        Actions{
-            id:actions
-            pause.onTriggered: content.setImageFillMode(Image.Pause)
-            back.onTriggered: content.setImageFillMode(Image.Back)
-            forward.onTriggered: content.setImageFillMode(Image.Forward)
-            pre.onTriggered: content.setImageFillMode(Image.Pre)
-            next.onTriggered: content.setImageFillMode(Image.Next)
         }
     }
 }

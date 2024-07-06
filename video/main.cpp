@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     BarrageModel barrageModel;
     engine.rootContext()->setContextProperty("barragemodel", &barrageModel);
     qmlRegisterType<BarrageModel>("BarrageModels", 1, 0, "BarrageModel");
+
     const QUrl url(QStringLiteral("qrc:/video/Main.qml"));
     QObject::connect(
         &engine,
