@@ -58,7 +58,8 @@ qt_add_qml_module(
   SOURCES
   SOURCES
   QML_FILES PlayerList.qml
-  QML_FILES        )
+  QML_FILES
+  QML_FILES video.js        )
 
 target_compile_features(appvideo PRIVATE cxx_std_20)
 

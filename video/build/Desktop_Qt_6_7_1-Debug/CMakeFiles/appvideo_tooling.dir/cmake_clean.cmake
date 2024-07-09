@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "video/Main.qml"
   "video/PlayerList.qml"
   "video/images.qrc"
+  "video/video.js"
 )
 
 # Per-language clean rules from dependency scanning.

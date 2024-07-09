@@ -7,6 +7,7 @@
     <file alias="Dialogs.qml">/root/video/Dialogs.qml</file>
     <file alias="BarrageDelegate.qml">/root/video/BarrageDelegate.qml</file>
     <file alias="PlayerList.qml">/root/video/PlayerList.qml</file>
+    <file alias="video.js">/root/video/video.js</file>
     <file alias="images.qrc">/root/video/images.qrc</file>
   </qresource>
 </RCC>

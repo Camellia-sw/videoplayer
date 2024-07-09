@@ -12,11 +12,9 @@
 		"/root/video/BarrageDelegate.qml",
 		"/root/video/images/video.jpg",
 		"/root/video/images/play-list.png",
-		"/root/video/images/back.png",
 		"/root/video/images/pause.png",
-		"/root/video/images/forward.png",
-		"/root/video/images/next.jpg",
-		"/root/video/images/pre.jpg",
+		"/root/video/images/next.png",
+		"/root/video/images/pre.png",
 		"/root/video/images/screenshot.jpg"
 	],
 	"LOCK_FILE" : "/root/video/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appvideo_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",

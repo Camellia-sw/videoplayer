@@ -4,13 +4,14 @@ import QtQuick.Layouts
 import QtMultimedia
 import QtQuick.Window
 import BarrageModels 1.0
+import "video.js" as Controller
+
 ApplicationWindow {
     width: 640
     height: 480
     visible: true
     title: qsTr("Video Player")
-    id:rootWindow
-
+    color:"black"
     BarrageModel{
         id:barrageModel
     }
@@ -20,7 +21,12 @@ ApplicationWindow {
             MenuItem { action:actions.open }
             MenuItem { action:actions.exit }
         }
-
+        Menu{
+            title: qsTr("&Speed")
+            MenuItem { action:actions.half }
+            MenuItem { action:actions.one }
+            MenuItem { action:actions.two }
+        }
      }
 
     header: ToolBar {
@@ -32,6 +38,9 @@ ApplicationWindow {
     Actions{
         id:actions
         open.onTriggered: content.dialogs.openfile.open()
+        half.onTriggered: Controller.half()
+        one.onTriggered: Controller.one()
+        two.onTriggered: Controller.two()
     }
 
 
@@ -54,10 +63,21 @@ ApplicationWindow {
             PlayerList{
                 id:playerlist
                 visible:false
-                anchors.bottom: parent.bottom
-                anchors.right: parent.right
             }
-
+            Connections{   //连接信号
+                target: playerlist   //目标id
+                onPlayerList:{
+                    if(content.audioSource == path)
+                    {
+                        console.log("重复文件")
+                        return
+                    }
+                    content.audioSource=path
+                    content.curIndex=listIndex
+                    console.log("当前索引: ",content.curIndex)
+                    content.mediaPlayer.play()
+                }
+            }
         }
         Footer{
             id:footer

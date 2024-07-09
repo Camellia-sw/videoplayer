@@ -5,10 +5,13 @@ import QtQuick.Controls
 Item {
     property alias open: _open
     property alias pause: _pause
-    property alias back: _back
-    property alias forward: _forward
+    property alias pre: _pre
+    property alias next: _next
     property alias exit: _exit
     property alias voice: _voice
+    property alias one:_one
+    property alias two:_two
+    property alias half:_half
 
     Action {
         id: _open
@@ -32,9 +35,8 @@ Item {
 
 
     Action {
-        id: _back
-        icon.source: "qrc:/images/back"
-
+        id: _pre
+        icon.source: "qrc:/images/pre"
     }
 
     Action {
@@ -43,8 +45,8 @@ Item {
 
     }
     Action {
-        id: _forward
-        icon.source: "qrc:/images/forward"
+        id: _next
+        icon.source: "qrc:/images/next"
     }
 
     Action {
@@ -53,6 +55,25 @@ Item {
         icon.name: "application-exit"
         shortcut: "Ctrl+q"
         onTriggered: Qt.quit();
+    }
+
+    Action{
+        id:_half
+        text:qsTr("&0.5x")
+        icon.name: "half"
+
+    }
+
+    Action{
+        id:_one
+        text:qsTr("&1x")
+        icon.name: "one"
+    }
+
+    Action{
+        id:_two
+        text:qsTr("&2x")
+        icon.name: "two"
     }
 }
 

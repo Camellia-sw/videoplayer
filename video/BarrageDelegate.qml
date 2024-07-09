@@ -5,15 +5,15 @@ Component {
     Item {
         id: barrageItem
         width:parent.width
-        height: 30 // 弹幕高度可以根据需要调整
-        property int index: -1 // 假设你有一个属性来存储当前弹幕在模型中的索引
+        height: 30 // 弹幕高度
+        property int index: -1 // 用来存储当前弹幕在模型中的索引
         TextArea {
             id: barrageText
             text: model.barrage // 假设有一个名为'barrage'的角色
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
             font.pixelSize: 18 // 字体大小
-            color: "black" // 字体颜色
+            color: "white" // 字体颜色
         }
 
         // 使用NumberAnimation实现弹幕从右至左的移动效果

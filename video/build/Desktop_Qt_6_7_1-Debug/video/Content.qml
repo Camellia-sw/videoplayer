@@ -5,8 +5,10 @@ import QtQuick.Controls
 
 Item {
     property alias dialogs: dialogs
-    property alias player:mediaplayer
+    property alias mediaPlayer:_mediaPlayer
     property alias videoItem:_videoItem
+    property alias audio: _audio
+    property int curIndex: 0
     property url audioSource
 
     Dialogs{
@@ -14,7 +16,7 @@ Item {
         openfile.onAccepted:{
             audioSource=openfile.selectedFile
             playerlist.videoPath=audioSource
-            player.play()
+            mediaPlayer.play()
         }
     }
 
@@ -23,9 +25,11 @@ Item {
         anchors.fill: parent
         focus:true
         MediaPlayer{
-            id:mediaplayer
+            id:_mediaPlayer
             source:audioSource
-            audioOutput: AudioOutput{}
+            audioOutput: AudioOutput{
+                id:_audio
+            }
             videoOutput: videoOutput
         }
         VideoOutput{
@@ -34,7 +38,6 @@ Item {
             fillMode: VideoOutput.PreserveAspectFit
         }
     }
-
 
 
 }

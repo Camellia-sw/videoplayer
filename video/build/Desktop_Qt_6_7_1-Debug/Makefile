@@ -669,6 +669,30 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.cpp.s
 
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appvideo.dir/build.make CMakeFiles/appvideo.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -760,6 +784,9 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_qmlcache_loader.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appvideo_video_js.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
