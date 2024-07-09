@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/next.png</file>
+        <file>images/pause.png</file>
+        <file>images/video.jpg</file>
+        <file>images/screenshot.jpg</file>
+        <file>BarrageDelegate.qml</file>
+        <file>images/play-list.png</file>
+        <file>images/pre.png</file>
+    </qresource>
+</RCC>

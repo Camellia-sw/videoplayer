@@ -1,0 +1,10 @@
+-I
+/root/video/build/Desktop_Qt_6_7_1-Release
+-I
+/opt/Qt/6.7.1/gcc_64/./qml
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Release/.qt/rcc/qmake_video.qrc
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Release/.qt/rcc/appvideo_raw_qml_0.qrc
+--module
+video

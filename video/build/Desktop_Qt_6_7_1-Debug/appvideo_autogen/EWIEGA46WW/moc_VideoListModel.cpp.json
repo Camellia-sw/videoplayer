@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "VideoListModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "addVideo",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "VideoListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "VideoListModel.h",
+    "outputRevision": 68
+}

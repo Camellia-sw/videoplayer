@@ -1,0 +1,12 @@
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Release/.qt/rcc/qmake_video.qrc
+--resource
+/root/video/build/Desktop_Qt_6_7_1-Release/.qt/rcc/appvideo_raw_qml_0.qrc
+/video/Main.qml
+/video/Footer.qml
+/video/Actions.qml
+/video/Content.qml
+/video/Dialogs.qml
+/video/BarrageDelegate.qml
+/video/PlayerList.qml
+/video/video.js

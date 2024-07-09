@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "BarrageModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "barrage",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "addBarrage",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "BarrageModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "BarrageModel.h",
+    "outputRevision": 68
+}

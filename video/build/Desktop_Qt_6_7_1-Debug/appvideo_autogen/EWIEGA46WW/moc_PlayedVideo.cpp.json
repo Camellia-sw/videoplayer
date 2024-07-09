@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "PlayedVideosModel",
+            "object": true,
+            "qualifiedClassName": "PlayedVideosModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PlayedVideo.h",
+    "outputRevision": 68
+}
